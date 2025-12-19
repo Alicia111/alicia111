@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 <!-- 切換深色模式 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/你的使用者名稱/你的儲存庫名稱/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/你的使用者名稱/你的儲存庫名稱/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/你的使用者名稱/你的儲存庫名稱/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alicia111/alicia111/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alicia111/alicia111/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/alicia111/alicia111/output/github-contribution-grid-snake.svg">
 </picture>
