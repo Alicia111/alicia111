@@ -24,3 +24,7 @@ Here are some ideas to get you started:
   <!-- 預設顯示 -->
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/alicia111/alicia111/output/github-contribution-grid-snake.svg">
 </picture>
+
+
+<!-- WAKATIME_START -->
+<!-- WAKATIME_END -->
