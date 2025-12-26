@@ -16,11 +16,11 @@ Here are some ideas to get you started:
 -->
 
 
-![GitHub Snake](https://raw.githubusercontent.com/alicia111/alicia111/output/github-contribution-grid-snake.svg)
-
-<!-- 切換深色模式 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alicia111/alicia111/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alicia111/alicia111/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/alicia111/alicia111/output/github-contribution-grid-snake.svg">
+  <!-- 當系統處於深色模式時顯示這張 -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/你的使用者名稱/你的儲存庫名稱/output/github-contribution-grid-snake-dark.svg">
+  <!-- 當系統處於淺色模式或不支援時顯示這張 -->
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/你的使用者名稱/你的儲存庫名稱/output/github-contribution-grid-snake.svg">
+  <!-- 預設顯示 -->
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/你的使用者名稱/你的儲存庫名稱/output/github-contribution-grid-snake.svg">
 </picture>
