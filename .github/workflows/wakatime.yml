@@ -25,7 +25,6 @@ jobs:
       - name: Fetch and Process WakaTime Data
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        # 關鍵就在下面這一行，指定用 python 執行
         shell: python
         run: |
           import os
@@ -33,7 +32,6 @@ jobs:
           import base64
           import re
 
-          # 1. 抓取 WakaTime 統計資料
           api_key = os.getenv('WAKATIME_API_KEY')
           if not api_key:
               print("Error: WAKATIME_API_KEY is missing (´д｀)")
@@ -42,16 +40,12 @@ jobs:
           encoded_key = base64.b64encode(api_key.encode()).decode()
           url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
           
-          headers = {
-              "Authorization": f"Basic {encoded_key}"
-          }
-          
+          headers = {"Authorization": f"Basic {encoded_key}"}
           response = requests.get(url, headers=headers)
           data = response.json().get('data', {})
 
-          # 2. 格式化輸出內容
           if not data:
-              content = "No WakaTime data found for the last 7 days (´･_･`)"
+              content = "No WakaTime data found for the last 7 days (・ω・)"
           else:
               languages = data.get('languages', [])[:5]
               content = "#### 📊 過去一週的開發數據\n\n```text\n"
@@ -63,7 +57,6 @@ jobs:
                   content += f"{name} {bar} {percent:>5.2f} %\n"
               content += "```\n"
 
-          # 3. 讀取並更新 README
           with open('README.md', 'r', encoding='utf-8') as f:
               readme = f.read()
 
@@ -83,6 +76,10 @@ jobs:
           git config --global user.name "DataAnalysisBot"
           git config --global user.email "bot@github.com"
           git add README.md
-          # 如果內容沒變動，git commit 會報錯，所以加個 || exit 0 忽略它
-          git commit -m "Update WakaTime stats (´∀`)b" || exit 0
-          git push
+          # 檢查是否有檔案變動，避免空 commit 導致錯誤
+          if git diff --staged --quiet; then
+            echo "No changes to commit (〃∀〃)"
+          else
+            git commit -m 'Update WakaTime stats (・ω・)b'
+            git push
+          fi
