@@ -47,14 +47,13 @@ jobs:
           if not data:
               content = "No WakaTime data found for the last 7 days (・ω・)"
           else:
+          else:
               languages = data.get('languages', [])[:5]
-              content = "#### 📊 過去一週的開發數據\n\n```text\n"
+              content = "#### 📊 過去一週的開發數據\n\n```mermaid\npie\n"
               for lang in languages:
-                  name = lang['name'].ljust(12)
+                  name = lang['name']
                   percent = lang['percent']
-                  bar_length = int(percent / 4)
-                  bar = '█' * bar_length + '░' * (25 - bar_length)
-                  content += f"{name} {bar} {percent:>5.2f} %\n"
+                  content += f'    "{name}" : {percent}\n'
               content += "```\n"
 
           with open('README.md', 'r', encoding='utf-8') as f:

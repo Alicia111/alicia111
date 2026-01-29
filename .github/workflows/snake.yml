@@ -32,8 +32,8 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          # 需要 GITHUB_TOKEN 來抓取貢獻資料
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 使用 PAT (GH_TOKEN) 來抓取包括私有倉庫的貢獻資料
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       # 3. 將生成的 SVG 推送到一個獨立的分支 (通常叫 output)
       # 這樣才不會弄髒妳的 main 分支 commit 紀錄
