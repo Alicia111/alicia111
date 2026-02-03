@@ -31,11 +31,11 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "Git Config" : 25.67
-    "JSON" : 23.66
-    "PowerShell" : 21.39
-    "Python" : 16.76
-    "Text" : 6.58
+    "Python" : 54.66
+    "PowerShell" : 13.01
+    "JavaScript" : 9.92
+    "Git Config" : 9.29
+    "JSON" : 8.56
 ```
 
 <!-- WAKATIME_END -->
