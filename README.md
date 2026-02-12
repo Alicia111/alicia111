@@ -31,10 +31,8 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "Python" : 83.58
-    "Other" : 12.63
-    "Markdown" : 3.22
-    "SQL" : 0.56
+    "Python" : 89.81
+    "Other" : 10.18
     "Git Config" : 0.01
 ```
 
