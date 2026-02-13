@@ -31,9 +31,7 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "Python" : 89.81
-    "Other" : 10.18
-    "Git Config" : 0.01
+    "Python" : 100.0
 ```
 
 <!-- WAKATIME_END -->
