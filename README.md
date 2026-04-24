@@ -31,10 +31,7 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "Git Config" : 37.55
-    "JavaScript" : 33.32
-    "Markdown" : 18.34
-    "TOML" : 10.78
+    "JavaScript" : 100.0
 ```
 
 <!-- WAKATIME_END -->
