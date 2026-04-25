@@ -31,7 +31,8 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "JavaScript" : 100.0
+    "Bash" : 55.05
+    "JavaScript" : 44.95
 ```
 
 <!-- WAKATIME_END -->
