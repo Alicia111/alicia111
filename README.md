@@ -31,11 +31,11 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "Python" : 39.3
-    "JavaScript" : 27.69
-    "Markdown" : 19.38
-    "Other" : 4.77
-    "PowerShell" : 3.61
+    "JavaScript" : 38.56
+    "Markdown" : 26.83
+    "Python" : 23.08
+    "Other" : 6.65
+    "HTML" : 1.39
 ```
 
 <!-- WAKATIME_END -->
