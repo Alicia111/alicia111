@@ -31,11 +31,7 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "Python" : 42.57
-    "Other" : 31.49
-    "Text" : 15.79
-    "Markdown" : 7.6
-    "JSON" : 1.49
+    "Markdown" : 100.0
 ```
 
 <!-- WAKATIME_END -->
