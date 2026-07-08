@@ -31,7 +31,6 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "Markdown" : 100.0
 ```
 
 <!-- WAKATIME_END -->
