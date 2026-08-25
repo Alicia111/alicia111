@@ -31,8 +31,9 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
-    "Other" : 86.61
-    "Kotlin" : 13.39
+    "Other" : 82.22
+    "Kotlin" : 11.81
+    "Python" : 5.97
 ```
 
 <!-- WAKATIME_END -->
