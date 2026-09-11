@@ -31,6 +31,11 @@ Here are some ideas to get you started:
 
 ```mermaid
 pie
+    "Markdown" : 34.07
+    "Vue" : 27.82
+    "Bash" : 19.86
+    "Lua" : 15.92
+    "Text" : 1.24
 ```
 
 <!-- WAKATIME_END -->
