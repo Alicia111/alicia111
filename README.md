@@ -27,15 +27,5 @@ Here are some ideas to get you started:
 
 
 <!-- WAKATIME_START -->
-#### 📊 過去一週的開發數據
-
-```mermaid
-pie
-    "Markdown" : 58.05
-    "Other" : 17.08
-    "Python" : 11.38
-    "JavaScript" : 5.44
-    "Text" : 5.32
-```
-
+No WakaTime data found for the last 7 days (・ω・)
 <!-- WAKATIME_END -->
